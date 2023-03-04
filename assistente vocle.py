@@ -77,7 +77,7 @@ def parse_command(statement):
         time.sleep(5)
 
     elif "meteo" in statement:
-        api_key = "8ef61edcf1c576d65d836254e11ea420"
+        api_key = "Inserisci la tua API"
         base_url = "https://api.openweathermap.org/data/2.5/weather?"
         speak("Di quale città desideri il meteo")
         city_name = take_command()
